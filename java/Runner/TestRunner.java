@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 
 
 @CucumberOptions(features="feature",glue= {"Stepdefination","Utiity"
-		},plugin= {"html:target/cucumber-html-report"},tags="@Test10")
+		},plugin= {"html:target/cucumber-html-report"},tags="@Test")
 
 
 

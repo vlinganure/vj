@@ -26,6 +26,7 @@ public class ConfigProperties {
 			
 			pro= new Properties();
 			
+			
 			pro.load(fs);
 		} catch (Exception e) {
 			

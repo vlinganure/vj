@@ -96,8 +96,11 @@ public class SmokeTest {
 
 	@And("^I click on TimesheetEntry link$")
 	public void i_click_on_timesheetentry_link() throws Throwable {
- 
- obj.opentimesheetpage();
+		System.out.println(obj.Timesheetpage);
+		obj.Timesheetpage.click();
+	
+  
+
 		
 	}
 

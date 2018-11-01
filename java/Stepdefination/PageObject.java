@@ -33,8 +33,9 @@ public class PageObject {
 	
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'Timesheet Entry')][@href='#']")
 
-	private WebElement Timesheetpage;
+	public WebElement Timesheetpage;
 	
+
 	
 	@FindBy(how = How.XPATH, using ="//input[@type=\"button\"][@value=\"Submit\"]")
 	private WebElement Submit;
@@ -53,11 +54,11 @@ public class PageObject {
 		
 	}
 
-	public void	 opentimesheetpage()
-	{
-	Timesheetpage.click();
-	System.out.println(Timesheetpage);
-	}
+	//public void	 opentimesheetpage()
+	//{
+	//Timesheetpage.click();
+//	System.out.println(Timesheetpage);
+	//}
 		
 	
 }

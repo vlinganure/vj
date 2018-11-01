@@ -14,4 +14,4 @@ Feature: SMoke testing of facebook login page
     #And I am able to close the browser
     Examples: 
       | Username | Password |
-      
+      |585907    | T@ta12345|
