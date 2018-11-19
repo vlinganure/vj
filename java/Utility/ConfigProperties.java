@@ -2,15 +2,17 @@ package Utility;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
+	
 import java.util.Properties;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ConfigProperties {
 	
 	
 	
-	Properties pro;
+	static Properties pro;
 	
 	
 	public ConfigProperties()
@@ -34,7 +36,7 @@ public class ConfigProperties {
 		}
 		
 	}
-	
+	//this is config class
 	
 	
 	public String geturl()
@@ -49,5 +51,17 @@ public class ConfigProperties {
 		return pro.getProperty("ChromeDriver");
 	}
 	
+	public String getUsername()
+	{
+		return pro.getProperty("Username");
+	}
 
+	public String getPassword()
+	{
+		return pro.getProperty("Password");
+	}
+
+
+
+		
 }
