@@ -13,7 +13,6 @@ import cucumber.api.junit.Cucumber;
 
 
 
-//This is test runner class
 
 
 

@@ -9,7 +9,7 @@ import cucumber.api.java.en.When;
 public class SmokeTest extends HomePage {
 	
 	
-	//this is glue coe
+	
 	
 	ConfigProperties config = new ConfigProperties();
 	

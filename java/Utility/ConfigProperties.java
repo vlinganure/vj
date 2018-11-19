@@ -36,7 +36,7 @@ public class ConfigProperties {
 		}
 		
 	}
-	//this is config class
+	
 	
 	
 	public String geturl()

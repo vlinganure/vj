@@ -10,5 +10,3 @@ Feature: validation of ux page
    # And I am able to navigate to TimesheetEntry page
     # And I insert "9" in allocation
     #And I click on submit button
-
-    # this is feature file class

@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage extends HomePage {
 	
-	//this is login page
+
 	  
     @FindBy(how=How.ID,using="USER")
     private WebElement USername;
